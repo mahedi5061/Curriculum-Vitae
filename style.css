@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:bisque;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{color:cadetblue}
+.container{
+    background-color: beige;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.header-contact{
+    float:right;
+}
+.header-contact a{
+     text-decoration: none;
+     color: cadetblue;
+     padding: 5px;
+     font-weight: bold;
+}
+.header-contact a:hover{
+    color: darkblue;
+    padding: 5px;
+    transition: all 0.5 ease;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: none;
+}
+#main-personal-info{
+
+}
+.info-contant{
+    margin-bottom: 30px;
+
+}
+.personal-info-left{
+     width: 30%;
+     float: left;
+      
+
+}
+.personal-info-right{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 2px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin-top:20px;
+}
+#work-info{
+
+}
+.work-contant{
+    margin-bottom: 30px;
+
+}
+.work-left{
+    width: 30%;
+    float: left;
+}
+.work-right{
+    float: left;
+    width: 70%;
+}
+#Edu-info{
+
+}
+.Edu-contant{
+    margin-bottom: 30px;
+}
+.Edu-left{
+    width: 30%;
+    float: left;
+}
+.Edu-right{
+    float: left;
+    width: 70%;
+}
+#Edu-result{
+
+}
+.result-contant{
+    margin-bottom: 30px;
+}
+.result-left{
+    width: 30%;
+    float: left;
+}
+.result-right{
+    float: left;
+    width: 70%;
+}
+#skill{
+
+}
+.skill-contant{
+    margin-bottom: 30px;
+}
+.skill-left{
+    width: 30%;
+    float: left;
+}
+.skill-right{
+    float: left;
+    width: 70%;
+    
+}
+ footer{
+     padding: 10px;
+     text-align: center;
+     background-color: black;
+     color: white;
+     margin-top: 20px;
+ }
+ footer a{
+     color:white;
+     margin-left: 10px;
+     text-decoration: none;
+ }
+ 
